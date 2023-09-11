@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose" , cursive;
+
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://tse3.mm.bing.net/th?id=OIP.F35MPFwNJtWoVGXgeO3G1QHaD3&pid=Api&P=0&h=180");
+ 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* 
+navbar
+
+ */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px 0px 60px;
+    margin-top: 55px;
+}
+.list{
+    list-style: none;
+    display: inline-flex;
+    gap: 63px ;
+    color: #ffc233;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Red Rose";
+    font-style: normal;
+    
+
+}
+.btn{
+    padding: 12px 40px;
+    background-color: #ff515f;
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 700;
+    border:none;
+    font-style: normal;
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+    
+}
+.logo :hover{
+    background-color:#ff515f;
+    transition:.5s ease all;
+    border: 2px solid;
+}
+.hero{
+  max-width: 1154px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 119px;
+
+}
+.Heading{
+    font-family: "Dela Gothic One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 104px;
+  line-height: 114px;
+  color: #ffc233;
+}
+.btn-2{
+  background: #ff505f;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  border: none;
+  padding: 24px 56px;
+  margin-top: 64px;
+  cursor: pointer;
+}
+.footer{
+    position: absolute;
+    bottom: 20px;
+    right: 45px;
+}
+
